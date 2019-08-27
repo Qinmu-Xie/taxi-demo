@@ -17,7 +17,7 @@ public class TaxiTest {
 
     @Test
     public void should_be_6_when_0km() {
-        assertEquals(6, taxi.calculate(0, 0), DELTA);
+        assertEquals(6, taxi.calculate(0), DELTA);
     }
 
     @Test
@@ -27,7 +27,7 @@ public class TaxiTest {
 
     @Test
     public void should_be_7dot6_when_4km() {
-        assertEquals(7.6f, taxi.calculate(4, 0), DELTA);
+        assertEquals(7.6f, taxi.calculate(4), DELTA);
     }
 
     @Test

@@ -21,4 +21,8 @@ public class Taxi {
         }
         return INITIAL_PRICE + TIME_RATE * waitMinutes;
     }
+
+    public float calculate(int distance) {
+        return calculate(distance, 0);
+    }
 }
